@@ -29,10 +29,11 @@ graph LR
 
 Le contrôle d’import révèle un écart d’un nœud par rapport aux 620 attendus, à investiguer.
 
-## Organisation prévue
+## Documentation et livrables
 - `scripts/` : requêtes Cypher commentées.
-- `reports/` : rapport de réalisation et captures des résultats.
-- `documentation/` : documentation d’import et de reproduction.
+- [Rapport de réalisation (PDF)](reports/Rapport_TP_Neo4j_MovieLens.pdf)
+- [Rapport de réalisation (Word)](reports/Rapport_TP_Neo4j_MovieLens.docx)
+- [Sujet du TP Neo4j](documentation/Neo4j_TP.pdf)
 
 ## Reproduction
 Créer une base Neo4j nommée `movielens`, importer les nœuds puis les relations à partir des six CSV autorisés, et exécuter les requêtes individuellement. Les relations utilisées sont `FRIENDS`, `IN_GENRE` et `RATED` (propriété `rating`).
